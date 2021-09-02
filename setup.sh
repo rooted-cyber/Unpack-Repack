@@ -11,5 +11,10 @@ done
 cd files
 dpkg -i Font.deb
 unzip Maruf.zip
+cp -Rf Maruf ~/Unpack-Repack
+cd ~/Unpack-Repack
+chmod -R 777 Maruf
+cd Maruf
+chmod -R 777 .*
 }
 setup
