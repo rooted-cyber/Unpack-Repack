@@ -55,8 +55,7 @@ bo-ch() {
 		}
 		rec=$(unpack-rec)
 		unpack-boot() {
-		cd ~/Unpack-Repack/
-		Maruf/Unpack
+		cd ~/Unpack-Repack/Maruf/Unpack
 		if [ -e ramdisk ];then
 		printf "\033[1;96m Unpacked"
 		else
